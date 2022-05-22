@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Faker.Net" Version="2.0.154" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KonusarakOgrenProject.Business\KonusarakOgrenProject.Business.csproj" />
+    <ProjectReference Include="..\KonusarakOgrenProject.Entities\KonusarakOgrenProject.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
